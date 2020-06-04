@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: bank.testrunner.RunTest
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 35.137 sec <<< FAILURE!
+Then user gets error msg(Scenario: Login Functionality for unvalid Username and  unvalid Password)  Time elapsed: 0.009 sec  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at bank.methods.SeleniumOperations.validationfail(SeleniumOperations.java:373)
+	at bank.cucumbermap.Login.user_gets_error_msg(Login.java:94)
+	at ?.Then user gets error msg(Login.feature:24)
+
+Scenario: Login Functionality for unvalid Username and  unvalid Password  Time elapsed: 0.011 sec  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at bank.methods.SeleniumOperations.validationfail(SeleniumOperations.java:373)
+	at bank.cucumbermap.Login.user_gets_error_msg(Login.java:94)
+	at ?.Then user gets error msg(Login.feature:24)
+
